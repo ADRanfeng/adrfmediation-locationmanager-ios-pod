@@ -16,6 +16,9 @@ typedef NS_ENUM(NSInteger, MCTCoordinateType) {
     MCTCoordinateTypeOther = 4, // 其他坐标系
 };
 
+static NSString *latKey = @"ADRFMediationGenDeviceInfo-lat";
+static NSString *lonKey = @"ADRFMediationGenDeviceInfo-lon";
+
 @interface ADRFMediationLocationManager : NSObject
 /// 国家, e.g.CN
 @property (nonatomic, copy) NSString *ISOcountryCode;

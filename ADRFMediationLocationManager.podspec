@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "ADRFMediationLocationManager"
-  s.version = "0.2.0.12221"
+  s.version = "0.2.1.01301"
   s.summary = "A short description of ADRFMediationLocationManager."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"business@ssdmobile.cn"=>"business@ssdmobile.cn"}
